@@ -1,33 +1,24 @@
-Credit Card Fraud Detection
-This project detects fraudulent credit card transactions using a dataset of real transaction records. It employs logistic regression after addressing class imbalance with under-sampling.
+# Data Visualization Project
 
-Steps
-Data Preprocessing:
+This project showcases various data visualization techniques using Python and popular libraries such as Matplotlib, Seaborn, and Plotly. It demonstrates how to represent data in an intuitive and visually appealing way, making it easier to analyze and understand trends, patterns, and outliers.
 
-Removed duplicates and verified no missing values.
-Balanced the dataset using NearMiss under-sampling.
-Model Training:
+## Features
 
-Split data (80% train, 20% test).
-Trained a logistic regression model on the balanced dataset.
-Evaluation:
+- **Variety of Charts**: Includes bar charts, line charts, scatter plots, pie charts, heatmaps, and more.
+- **Interactive Visualizations**: Use of Plotly for dynamic and interactive charts.
+- **Customizable Visualizations**: Modify styles, colors, and data inputs for tailored visual representations.
+- **Real-world Examples**: Demonstrations with real datasets (e.g., financial data, population data, or custom datasets).
 
-Used accuracy score, confusion matrix, and classification report to assess performance.
-Dependencies
-numpy, pandas, matplotlib, seaborn, scikit-learn, imbalanced-learn
-How to Run
-Install libraries:
-Copy code
-pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn
-Place creditcard.csv in the working directory.
-Run the script in a Jupyter Notebook or IDE.
-Outputs
-Balanced dataset visualization.
-Logistic regression results:
-Accuracy score.
-Confusion matrix.
-Classification report.
-Future Work
-Explore advanced models like Random Forests or Neural Networks.
-Use SMOTE for synthetic over-sampling.
-Perform hyperparameter tuning.
+## Requirements
+
+- **Python 3.x**
+- Libraries:
+  - **Matplotlib**
+  - **Seaborn**
+  - **Plotly**
+  - **Pandas** (for data manipulation)
+  - **NumPy** (for numerical computations)
+
+Install the required libraries using:
+```bash
+pip install matplotlib seaborn plotly pandas numpy
